@@ -1,0 +1,6 @@
+{
+    "home": {
+        "path": ["", "home", "foo", "home/{id}/{name}"],
+        "controller": "src/Controller/HomeController::index"
+    }
+}
