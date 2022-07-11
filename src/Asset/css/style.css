@@ -3,3 +3,17 @@
 }
 
 body { margin: 0; background-color: var(--main-bg-color); }
+
+header {
+    height: 50px;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    background-color: rgb(223, 185, 206);
+    box-shadow: 0px 0px 5px #333333;
+}
+
+header > div {
+    height: 100%;
+}
