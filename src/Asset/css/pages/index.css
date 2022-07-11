@@ -1,7 +1,7 @@
 #mmvc-panel-content {
 
     width: calc(100% - 80px);
-    height: calc(100% - 80px);
+    height: 2000px;
     margin: 40px;
     font-size: 14px;
     font-family: monospace;
