@@ -14,6 +14,8 @@ class AbstractController {
     public function setConfig($config) { $this->config = $config; }
     public function getConfig() { return $this->config; }
 
+    public function dbmanager() { return $this->config->getDBManager(); }
+
     public function setVar($var) { $this->viewVar = $var; }
     public function getVar() { return $this->viewVar; }
     public function getVarNamed($varName) {

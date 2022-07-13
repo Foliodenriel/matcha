@@ -7,10 +7,12 @@ class Config {
     private $basedir;
     private $basedirName;
     private $configFolder;
+    private $configFile;
     private $routesFile;
     private $controllerFolder;
     private $viewFolder;
     private $assetFolder;
+    private ?DBManager $dbmanager;
 
     public function setBasedir($basedir) { $this->basedir = $basedir; }
     public function getBasedir() { return $this->basedir; }
@@ -24,6 +26,9 @@ class Config {
     public function setRouteFile($routeFile) { $this->routeFile = $routeFile; }
     public function getRouteFile() { return $this->routeFile; }
 
+    public function setConfigFile($configFile) { $this->configFile = $configFile; }
+    public function getConfigFile() { return $this->configFile; }
+
     public function setControllerFolder($controllerFolder) { $this->controllerFolder = $controllerFolder; }
     public function getControllerFolder() { return $this->controllerFolder; }
 
@@ -32,4 +37,7 @@ class Config {
 
     public function setAssetFolder($assetFolder) { $this->assetFolder = $assetFolder; }
     public function getAssetFolder() { return $this->assetFolder; }
+
+    public function setDBManager(DBManager $dbmanager) { $this->dbmanager = $dbmanager; }
+    public function getDBManager() { return $this->dbmanager; }
 }
