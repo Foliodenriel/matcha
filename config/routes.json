@@ -2,5 +2,21 @@
     "home": {
         "path": ["", "home", "foo", "home/{id}/{name}"],
         "controller": "src/Controller/HomeController::index"
+    },
+    "search": {
+        "path": ["search"],
+        "controller": "src/Controller/SearchController::index"
+    },
+    "match": {
+        "path": ["match"],
+        "controller": "src/Controller/MatchController::index"
+    },
+    "like": {
+        "path": ["like"],
+        "controller": "src/Controller/LikeController::index"
+    },
+    "notification": {
+        "path": ["notification"],
+        "controller": "src/Controller/NotificationController::index"
     }
 }

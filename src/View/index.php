@@ -7,7 +7,7 @@
     </head>
     <body>
 
-        <?php include('templates/header.php'); ?>
+        <?php include_once('templates/header.php'); ?>
 
 
         <div id="mmvc-panel-content">

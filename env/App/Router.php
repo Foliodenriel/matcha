@@ -99,7 +99,10 @@ class Router {
         $retPath = "";
         if ($this->routeExist($route) && array_key_exists('path', $this->routes[$route])) {
 
-            $retPath = $this->routes[$route]['path'];
+            if (is_array($this->routes[$route]['path']))
+                $retPath = $this->routes[$route]['path'][0];
+            else
+                $retPath = $this->routes[$route]['path'];
         }
         return $retPath;
     }
