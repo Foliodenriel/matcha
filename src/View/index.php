@@ -7,18 +7,10 @@
     </head>
     <body>
 
-        <header>
-            <div class="row justify-content-md-center g-0">
-                <div class="col-md-4">Hello there</div>
-            </div>
-        </header>
-
-
+        <?php include('templates/header.php'); ?>
 
 
         <div id="mmvc-panel-content">
-
-
             <div id="panel-header" class="row d-flex justify-content-center">
                 <div class="col-md-12 text-center">
                     <h3>Welcome on MiniMVC!</h3>

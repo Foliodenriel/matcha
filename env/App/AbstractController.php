@@ -44,6 +44,13 @@ class AbstractController {
         return "";
     }
 
+    public function view($file)
+    {
+        if (file_exists($this->config->getViewFolder() . $file))
+            return '/' . $this->config->getBasedirName() . '/' . $this->config->getViewFolder() . $file;
+        return "";
+    }
+
     public function getParam($name) {
 
         $table = $this->router->getUrlVarTable();
