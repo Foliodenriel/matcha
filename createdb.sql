@@ -69,3 +69,13 @@ CREATE TABLE IF NOT EXISTS notifications (
     deleted_at DATETIME,
     is_read BOOLEAN
 );
+
+CREATE TABLE IF NOT EXISTS email_codes (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    id_user INT,
+    type TINYINT,
+    code VARCHAR(100),
+    created_at DATETIME,
+    deleted_at DATETIME,
+     BOOLEAN
+);
