@@ -8,6 +8,30 @@
     <body>
 
         <?php include_once('templates/header.php'); ?>
+
+        <main class="row g-0">
+            <div class="col-md-1"></div>
+            <div class="search-content col-md-10">
+                <div class="row justify-content-center">
+                    <div class="profile-item"></div>
+                    <div class="profile-item"></div>
+                    <div class="profile-item"></div>
+                    <div class="profile-item"></div>
+                    <div class="profile-item"></div>
+                    <div class="profile-item"></div>
+                    <div class="profile-item"></div>
+                    <div class="profile-item"></div>
+                    <div class="profile-item"></div>
+                    <div class="profile-item"></div>
+                    <div class="profile-item"></div>
+                    <div class="profile-item"></div>
+                    <div class="profile-item"></div>
+                    <div class="profile-item"></div>
+                    <div class="profile-item"></div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </main>
         
     </body>
 </html>

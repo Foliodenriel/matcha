@@ -29,7 +29,7 @@ class DBManager {
         if (isset($json_obj['database']) && isset($json_obj['database']['user'], $json_obj['database']['password'], $json_obj['database']['db']))
         {
             $this->dbName = $json_obj['database']['db'];
-            $this->conn = new PDO('mysql:host=localhost;dbname=' . $this->dbName, $json_obj['database']['user'], $json_obj['database']['password']);
+            $this->conn = new PDO('mysql:host=127.0.0.1;port=3308;dbname=' . $this->dbName, $json_obj['database']['user'], $json_obj['database']['password']);
         }
     }
 }
