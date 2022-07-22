@@ -1,7 +1,7 @@
 <header>
     <div class="row g-0">
         <div class="d-flex col-md-5">
-            <div class="p-2 header-logo">Matcha</div>
+            <div class="header-logo"><img src="<?php echo $this->asset('img/title.png'); ?>"></div>
         </div>
         <div class="d-flex col-md-2">
             <a href="<?php echo $this->router->findPathFromRoute("search"); ?>"><div class="header-button"><img width="25" height="25" src="<?php echo $this->asset('img/search-heart.svg'); ?>"></div></a>
